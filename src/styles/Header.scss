@@ -1,7 +1,7 @@
 .header{
     min-height: 20%;
     padding: 10px;
-    background-color: grey;
+    background-color: orange;
     @media all and (min-width: 768px) {
         padding: 20px;
         display: flex;
@@ -47,4 +47,9 @@
 
         }
     }
+}
+
+.progress{
+    display: flex;
+    justify-content: center;
 }
