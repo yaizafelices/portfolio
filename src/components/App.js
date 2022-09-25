@@ -17,7 +17,10 @@ import logoHeader from '../images/logo-yaiza-finalY.png';
 import '../styles/Header.scss';
 import '../styles/Home.scss';
 import '../styles/Contact.scss';
+import '../styles/AboutMe.scss';
 import workInProgress from '../images/work-in-progress.png';
+import photoYaiza from '../images/photo-yaiza.jpg';
+
 
 
 function App() {
@@ -50,6 +53,34 @@ function App() {
             </figure>
           </section>
           <section className="aboutme">
+            <figure className='aboutme__photo'>
+              <img className='aboutme__photo-yaiza' src={photoYaiza} alt="Yaiza Soria Felices" title='Photo Yaiza'></img>
+            </figure>
+            <article className='aboutme__text'>
+              <p>My name is Yaiza</p>
+              <p>I studied Food Engineering, but after working as a quality manager in a vegetable company in Mercamadrid, I realised that it was not my passion and I start watching videos of Javascript and it´s was amazing.</p>
+              <p>So in may of this year I start the Bootcampo of web Developer in Adalab, where I learned:</p>
+              <ul>
+                <li>HTML5, CSS3, Flexbox, CSS Grid, SASS, Bootstrap.</li>
+                <li>JavaScript (ES6) and web services (APIs) from third
+                    parties.
+                </li>
+                <li>Version control with Git</li>
+                <li>Create SPAs with React.</li>
+                <li>Basics knowledge APIs and back development:
+                    applications with Node JS, Express and SQL.
+                </li>
+                <li>Use of Slack, Github, VS Code, Gulp, Terminal, Linter,
+                    Zeplin
+                </li>
+              </ul>
+              <p>I am a person with a great capacity for adaptation, autonomy and self-taught, capable of facing challenging situations and overcoming challenges.</p>
+              <p>Wishing to have my first opportunity as a junior web programmer, and to be able to continue learning and putting into practice all my knowledge.</p>
+            </article>
+            <article>
+              <h6>Skills</h6>
+              <h6>Soft skills</h6>
+            </article>
 
           </section>
           <section className="projects">
@@ -59,7 +90,8 @@ function App() {
           <nav>
         <ul class="contact__list">
           <li class="contact__list-icon" >
-            <a class="contact__list-icon-a"  href="www.linkedin.com/in/yaiza-soria-felices" target="_blank" rel="noreferrer"
+            <a class="contact__list-icon-a"  href="https://www.linkedin.com/in/yaiza-soria-felices/"
+             target="_blank" rel="noreferrer"
               ><i class="fa-brands fa-linkedin-in icon "></i
             ></a>
           </li>
