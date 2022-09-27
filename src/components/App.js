@@ -57,10 +57,10 @@ function App() {
               <img className='aboutme__photo-yaiza' src={photoYaiza} alt="Yaiza Soria Felices" title='Photo Yaiza'></img>
             </figure>
             <article className='aboutme__text'>
-              <p>My name is Yaiza</p>
-              <p>I studied Food Engineering, but after working as a quality manager in a vegetable company in Mercamadrid, I realised that it was not my passion and I start watching videos of Javascript and it´s was amazing.</p>
-              <p>So in may of this year I start the Bootcampo of web Developer in Adalab, where I learned:</p>
-              <ul>
+              <p className='aboutme__text-item'>My name is Yaiza</p>
+              <p className='aboutme__text-item'>I studied Food Engineering, but after working as a quality manager in a vegetable company in Mercamadrid, I realised that it was not my passion and I start watching videos of Javascript and it´s was amazing.</p>
+              <p className='aboutme__text-item'>So in may of this year I start the Bootcampo of web Developer in Adalab, where I learned:</p>
+              <ul className="aboutme__text-list">
                 <li>HTML5, CSS3, Flexbox, CSS Grid, SASS, Bootstrap.</li>
                 <li>JavaScript (ES6) and web services (APIs) from third
                     parties.
@@ -74,13 +74,13 @@ function App() {
                     Zeplin
                 </li>
               </ul>
-              <p>I am a person with a great capacity for adaptation, autonomy and self-taught, capable of facing challenging situations and overcoming challenges.</p>
-              <p>Wishing to have my first opportunity as a junior web programmer, and to be able to continue learning and putting into practice all my knowledge.</p>
+              <p className='aboutme__text-item'>I am a person with a great capacity for adaptation, autonomy and self-taught, capable of facing challenging situations and overcoming challenges.</p>
+              <p className='aboutme__text-item'>Wishing to have my first opportunity as a junior web programmer, and to be able to continue learning and putting into practice all my knowledge.</p>
             </article>
-            <article>
+            {/* <article>
               <h6>Skills</h6>
               <h6>Soft skills</h6>
-            </article>
+            </article> */}
 
           </section>
           <section className="projects">
@@ -96,6 +96,14 @@ function App() {
             ></a>
           </li>
           <li class="contact__list-icon">
+            <a class="contact__list-icon-a" href="mailto:yaizafelices@gmail.com" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-envelope icon"></i></a>
+          </li>
+          <li class="contact__list-icon">
+            <a class="contact__list-icon-a" href="tel:+34628298845" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-phone icon"></i></a>
+          </li>
+          <li class="contact__list-icon">
             <a class="contact__list-icon-a"  href="https://github.com/yaizafelices" target="_blank" rel="noreferrer"
               ><i class="fa-brands fa-github icon"></i
             ></a>
@@ -105,6 +113,8 @@ function App() {
               ><i class="fa-brands fa-twitter icon"></i
             ></a>
           </li>
+          
+
         </ul>
       </nav>
             
