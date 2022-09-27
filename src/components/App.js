@@ -77,14 +77,48 @@ function App() {
               <p className='aboutme__text-item'>I am a person with a great capacity for adaptation, autonomy and self-taught, capable of facing challenging situations and overcoming challenges.</p>
               <p className='aboutme__text-item'>Wishing to have my first opportunity as a junior web programmer, and to be able to continue learning and putting into practice all my knowledge.</p>
             </article>
-            {/* <article>
-              <h6>Skills</h6>
-              <h6>Soft skills</h6>
-            </article> */}
 
           </section>
           <section className="projects">
-            
+            <h2 className="projects__title">Projects</h2>
+            <ul className="projects__list">
+              <li className="projects__list-item">
+                <a href="https://yaizafelices.github.io/list_of_harry_potter_characters/"><div className="projects__list-item-hp"><p className="">Harry Potter</p></div><p className="projects__list-item-description">Web to search characters of Harry Potter | HTML / CSS / React JS</p>
+                <p>Personal project</p></a>
+              </li>
+              <li className="projects__list-item">
+                <a href="https://yaizafelices.github.io/hangman_game/"><div className="projects__list-item-hangman"><p className="">Hangman</p></div><p className="projects__list-item-description">Page to play hangman game | HTML / CSS / React JS</p>
+                <p>Personal project</p></a>
+              </li>
+              <li className="projects__list-item">
+                <a href="https://yaizafelices.github.io/profile_cards/"><div className="projects__list-item-jokers"><p className="">Jokers del script</p></div><p className="projects__list-item-description">Web to create a personal profile card | HTML / CSS / JavaScript</p>
+                <p>Team project</p></a>
+              </li>
+              <li className="projects__list-item">
+                <a href="https://yaizafelices.github.io/list-quotes-of-friends-intermediate-review-exercise/"><div className="projects__list-item-friends"><p className="">Friends</p></div><p className="projects__list-item-description">Web search quotes of friends | HTML / CSS / React JS</p>
+                <p>Personal project</p></a>
+              </li>
+              <li className="projects__list-item">
+                <a href="https://yaizafelices.github.io/find_anime_series/"><div className="projects__list-item-anime"><p className="">Anime</p></div><p className="projects__list-item-description">Web to search anime series | HTML / CSS / JavaScript</p>
+                <p>Personal project</p></a>
+              </li>
+              <li className="projects__list-item">
+                <a href="https://yaizafelices.github.io/list_of_task/"><div className="projects__list-item-tasks"><p className="">List of Tasks</p></div><p className="projects__list-item-description">Page of a list of tasks | HTML / CSS / React JS</p>
+                <p>Personal project</p></a>
+              </li>
+              <li className="projects__list-item">
+                <a href="https://yaizafelices.github.io/find_anime_series/"><div className="projects__list-item-anime"><p className="">Anime</p></div><p className="projects__list-item-description">Web to search anime series | HTML / CSS / JavaScript</p>
+                <p>Personal project</p></a>
+              </li>
+              <li className="projects__list-item">
+                <a href="https://yaizafelices.github.io/team-contact-page/"><div className="projects__list-item-contactpage"><p className="">Strangers Coders</p></div><p className="projects__list-item-description">Team contact page| HTML / CSS </p>
+                <p>Team project</p></a>
+              </li>
+              <li className="projects__list-item">
+                <a href="https://yaizafelices.github.io/design_website/"><div className="projects__list-openspaces"><p className="">Open Spaces</p></div><p className="projects__list-item-description">Design website | HTML / CSS / JavaScript</p>
+                <p>Personal project</p></a>
+              </li>
+            </ul>
           </section>
           <section className="contact">
           <nav>
