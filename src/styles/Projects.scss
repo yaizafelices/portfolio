@@ -1,5 +1,6 @@
 .projects{
     margin: 0 50px;
+    
 
     @media all and (min-width: 768px) {
         margin: 0 100px;
@@ -50,10 +51,11 @@
 
             &-description{
                 padding: 3px;
+                font-family: 'Josefin Sans', sans-serif;
 
                 &-tecn{
                     text-align: center;
-                    margin: 3px 0;
+                    margin: 5px 0;
                 }
                 
             }
