@@ -18,6 +18,7 @@ import '../styles/Header.scss';
 import '../styles/Home.scss';
 import '../styles/Contact.scss';
 import '../styles/AboutMe.scss';
+import '../styles/Projects.scss';
 import workInProgress from '../images/work-in-progress.png';
 import photoYaiza from '../images/photo-yaiza.jpg';
 
@@ -83,39 +84,35 @@ function App() {
             <h2 className="projects__title">Projects</h2>
             <ul className="projects__list">
               <li className="projects__list-item">
-                <a href="https://yaizafelices.github.io/list_of_harry_potter_characters/"><div className="projects__list-item-hp"><p className="">Harry Potter</p></div><p className="projects__list-item-description">Web to search characters of Harry Potter | HTML / CSS / React JS</p>
+                <a href="https://yaizafelices.github.io/list_of_harry_potter_characters/"><div className="projects__list-item-hp"></div><p className="projects__list-item-description">Web to search characters of Harry Potter | HTML / CSS / React JS</p>
                 <p>Personal project</p></a>
               </li>
               <li className="projects__list-item">
-                <a href="https://yaizafelices.github.io/hangman_game/"><div className="projects__list-item-hangman"><p className="">Hangman</p></div><p className="projects__list-item-description">Page to play hangman game | HTML / CSS / React JS</p>
+                <a href="https://yaizafelices.github.io/hangman_game/"><div className="projects__list-item-hangman"></div><p className="projects__list-item-description">Page to play hangman game | HTML / CSS / React JS</p>
                 <p>Personal project</p></a>
               </li>
               <li className="projects__list-item">
-                <a href="https://yaizafelices.github.io/profile_cards/"><div className="projects__list-item-jokers"><p className="">Jokers del script</p></div><p className="projects__list-item-description">Web to create a personal profile card | HTML / CSS / JavaScript</p>
+                <a href="https://yaizafelices.github.io/profile_cards/"><div className="projects__list-item-jokers"></div><p className="projects__list-item-description">Web to create a personal profile card | HTML / CSS / JavaScript</p>
                 <p>Team project</p></a>
               </li>
               <li className="projects__list-item">
-                <a href="https://yaizafelices.github.io/list-quotes-of-friends-intermediate-review-exercise/"><div className="projects__list-item-friends"><p className="">Friends</p></div><p className="projects__list-item-description">Web search quotes of friends | HTML / CSS / React JS</p>
+                <a href="https://yaizafelices.github.io/list-quotes-of-friends-intermediate-review-exercise/"><div className="projects__list-item-friends"></div><p className="projects__list-item-description">Web search quotes of friends | HTML / CSS / React JS</p>
                 <p>Personal project</p></a>
               </li>
               <li className="projects__list-item">
-                <a href="https://yaizafelices.github.io/find_anime_series/"><div className="projects__list-item-anime"><p className="">Anime</p></div><p className="projects__list-item-description">Web to search anime series | HTML / CSS / JavaScript</p>
+                <a href="https://yaizafelices.github.io/find_anime_series/"><div className="projects__list-item-anime"></div><p className="projects__list-item-description">Web to search anime series | HTML / CSS / JavaScript</p>
                 <p>Personal project</p></a>
               </li>
               <li className="projects__list-item">
-                <a href="https://yaizafelices.github.io/list_of_task/"><div className="projects__list-item-tasks"><p className="">List of Tasks</p></div><p className="projects__list-item-description">Page of a list of tasks | HTML / CSS / React JS</p>
+                <a href="https://yaizafelices.github.io/list_of_task/"><div className="projects__list-item-tasks"></div><p className="projects__list-item-description">Page of a list of tasks | HTML / CSS / React JS</p>
                 <p>Personal project</p></a>
               </li>
               <li className="projects__list-item">
-                <a href="https://yaizafelices.github.io/find_anime_series/"><div className="projects__list-item-anime"><p className="">Anime</p></div><p className="projects__list-item-description">Web to search anime series | HTML / CSS / JavaScript</p>
-                <p>Personal project</p></a>
-              </li>
-              <li className="projects__list-item">
-                <a href="https://yaizafelices.github.io/team-contact-page/"><div className="projects__list-item-contactpage"><p className="">Strangers Coders</p></div><p className="projects__list-item-description">Team contact page| HTML / CSS </p>
+                <a href="https://yaizafelices.github.io/team-contact-page/"><div className="projects__list-item-contactpage"></div><p className="projects__list-item-description">Team contact page| HTML / CSS </p>
                 <p>Team project</p></a>
               </li>
               <li className="projects__list-item">
-                <a href="https://yaizafelices.github.io/design_website/"><div className="projects__list-openspaces"><p className="">Open Spaces</p></div><p className="projects__list-item-description">Design website | HTML / CSS / JavaScript</p>
+                <a href="https://yaizafelices.github.io/design_website/"><div className="projects__list-openspaces"></div><p className="projects__list-item-description">Design website | HTML / CSS / JavaScript</p>
                 <p>Personal project</p></a>
               </li>
             </ul>
