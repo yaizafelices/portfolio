@@ -2,7 +2,7 @@
     padding: 0 50px; 
 
     @media all and (min-width: 768px) {
-        margin: 0 100px;
+        padding: 0 100px;
     }
     &__title{
         padding: 20px;
@@ -23,7 +23,7 @@
         }
 
         &-item{
-            border: orange solid 3px;
+            border: #0C474B solid 3px;
             border-radius: 25px;
             margin: 15px;
             padding: 15px;

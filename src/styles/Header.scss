@@ -7,8 +7,7 @@
         padding: 20px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-               
+        align-items: center;         
     }
 
 
@@ -34,7 +33,6 @@
         flex-direction: column;
         align-items: center;
         list-style-type: none;
-        padding: 10px;
         @media all and (min-width: 768px) {
             flex-direction: row;
             font-size: 20px;
@@ -42,12 +40,20 @@
         
         &-li{
             padding: 5px;
-            text-transform: uppercase;
-            @media all and (min-width: 768px) {
-                padding: 35px;
+            &-item{
+                text-transform: uppercase;
+                text-decoration: none;
+                color: azure;
+                &:hover {
+                    color: orange
+                  }
+                
+                @media all and (min-width: 768px) {
+                    padding: 35px;
+                }
             }
-
         }
+
     }
 }
 

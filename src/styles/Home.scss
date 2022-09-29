@@ -2,21 +2,43 @@
     background-color:azure;
     min-height: 65vh;
     @media all and (min-width: 768px) {
-        min-height: 73vh;
+        min-height: 73.5vh;
     }
     @media all and (min-width: 1400px) {
-        min-height: 75.5vh;
+        min-height: 75.7vh;
     }
 }
 
 .home{
-    padding-right: 30px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 
-    &__icon{
-        height: 50px;
-        margin: 20px 10px;
+    &__hi{
+        padding: 20px;
+        font-size: xx-large;
     }
+    &__name{
+        padding: 10px
+    }
+
+    &__icons{
+        @media all and (min-width: 768px) {
+            width: 700px;   
+        }        
+        &-item{
+            height: 50px;
+            margin: 20px 10px;
+            @media all and (min-width: 768px) {
+                height: 69px;
+                margin: 40px 30px;
+
+            }
+        }
+
+    }
+
+
 }
