@@ -1,10 +1,16 @@
 .main{
     background-color:azure;
-    min-height: 75%;
+    min-height: 65vh;
+    @media all and (min-width: 768px) {
+        min-height: 73vh;
+    }
+    @media all and (min-width: 1400px) {
+        min-height: 75.5vh;
+    }
 }
 
 .home{
-    padding: 20px;
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -12,7 +18,5 @@
     &__icon{
         height: 50px;
         margin: 20px 10px;
-     
     }
-    
 }

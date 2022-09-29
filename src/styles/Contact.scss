@@ -2,10 +2,8 @@
     display: flex;
     justify-content: center;
     @media all and (min-width: 768px) {
-        margin-top: 10px;
+        padding: 10px;
      }
-
-
 
     &__list{
         list-style-type: none;
@@ -14,19 +12,14 @@
         flex-wrap: wrap;
         justify-content: center;
         
-
         &-icon{
             padding: 15px;
-
-            
+             
             &-a{           
                 padding: 50px;
                 height: 300px;
-                color: #0C474B;
-                
-
+                color: #0C474B; 
             }
-
         }
     }
 }

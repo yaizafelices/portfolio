@@ -1,10 +1,8 @@
 .projects{
-    margin: 0 50px;
-    
+    padding: 0 50px; 
 
     @media all and (min-width: 768px) {
         margin: 0 100px;
-        
     }
     &__title{
         padding: 20px;
@@ -16,12 +14,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 5px;
+        padding: 5px;
 
         @media all and (min-width: 768px) {
             flex-direction: row;
             flex-wrap: wrap;
-            margin: 15px;
+            padding: 15px;
         }
 
         &-item{
@@ -39,8 +37,7 @@
                 border: #0C474B solid 3px;
                 border-radius: 25px;
                 padding: 15px;
-                margin-right: 15px;
-                
+                margin-right: 15px;   
             }
 
             &-link{
@@ -56,8 +53,7 @@
                 &-tecn{
                     text-align: center;
                     margin: 5px 0;
-                }
-                
+                }  
             }
             &-hp{
                 height: 200px;

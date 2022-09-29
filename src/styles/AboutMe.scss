@@ -1,7 +1,7 @@
 .aboutme{
-    margin: 20px 50px;
+    padding: 20px 50px;
     @media all and (min-width: 768px) {
-        margin: 50px 100px;
+        padding: 50px 100px;
     }
 
     &__photo{
