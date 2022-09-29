@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3554d935.css",
+    "main.js": "./static/js/main.7780cde1.js",
+    "static/media/photo-yaiza.jpg": "./static/media/photo-yaiza.46ae318386ca1f66a097.jpg",
+    "static/media/harrypotter.png": "./static/media/harrypotter.b8d1cb0c8b5ffcb21a74.png",
+    "static/media/hangman.png": "./static/media/hangman.fced5b15cae4e5ebd1ef.png",
+    "static/media/anime.png": "./static/media/anime.bf8c861a478ecc87face.png",
+    "static/media/strangercoders.png": "./static/media/strangercoders.9fea831e7132bcf578d5.png",
+    "static/media/nodejs.jpg": "./static/media/nodejs.da9a0c62570d236e65ad.jpg",
+    "static/media/github.jpg": "./static/media/github.e1137ba7d5aa3043b646.jpg",
+    "static/media/jokersscript.png": "./static/media/jokersscript.78b7f1142cf97255fdb5.png",
+    "static/media/react.png": "./static/media/react.35639ed930462bfcd544.png",
+    "static/media/sass.png": "./static/media/sass.91714f748188b46f4e33.png",
+    "static/media/logo-yaiza-finalY.png": "./static/media/logo-yaiza-finalY.6451d95bac6eaf693358.png",
+    "static/media/friends.png": "./static/media/friends.cc105870f76262451b0d.png",
+    "static/media/openspaces.png": "./static/media/openspaces.fbdd391ffe14273a43b0.png",
+    "static/media/css.png": "./static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/slack.png": "./static/media/slack.55ad9eabc7f642f5e5a5.png",
+    "static/media/tasks.png": "./static/media/tasks.6c5e68f346d84c52454d.png",
+    "static/media/html5.png": "./static/media/html5.2c6a71b184b518b01b9a.png",
+    "static/media/js.png": "./static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/zepplin.png": "./static/media/zepplin.937e15392e31e0db03c2.png",
+    "index.html": "./index.html",
+    "main.3554d935.css.map": "./static/css/main.3554d935.css.map",
+    "main.7780cde1.js.map": "./static/js/main.7780cde1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3554d935.css",
+    "static/js/main.7780cde1.js"
+  ]
+}
