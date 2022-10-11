@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.ed77eaad.css",
-    "main.js": "./static/js/main.9989f9c0.js",
+    "main.css": "./static/css/main.af6fd04a.css",
+    "main.js": "./static/js/main.390e35f0.js",
     "static/media/photo-yaiza.jpg": "./static/media/photo-yaiza.46ae318386ca1f66a097.jpg",
     "static/media/harrypotter.png": "./static/media/harrypotter.b8d1cb0c8b5ffcb21a74.png",
     "static/media/hangman.png": "./static/media/hangman.fced5b15cae4e5ebd1ef.png",
     "static/media/anime.png": "./static/media/anime.bf8c861a478ecc87face.png",
     "static/media/strangercoders.png": "./static/media/strangercoders.9fea831e7132bcf578d5.png",
+    "static/media/CV-english.pdf": "./static/media/CV-english.26eacf35f35dfd887dd3.pdf",
+    "static/media/CV-spanish.pdf": "./static/media/CV-spanish.0106a406e53c73a300e9.pdf",
     "static/media/nodejs.jpg": "./static/media/nodejs.da9a0c62570d236e65ad.jpg",
     "static/media/github.jpg": "./static/media/github.e1137ba7d5aa3043b646.jpg",
     "static/media/jokersscript.png": "./static/media/jokersscript.78b7f1142cf97255fdb5.png",
@@ -22,11 +24,11 @@
     "static/media/js.png": "./static/media/js.3dfb665e058d08c99f28.png",
     "static/media/zepplin.png": "./static/media/zepplin.937e15392e31e0db03c2.png",
     "index.html": "./index.html",
-    "main.ed77eaad.css.map": "./static/css/main.ed77eaad.css.map",
-    "main.9989f9c0.js.map": "./static/js/main.9989f9c0.js.map"
+    "main.af6fd04a.css.map": "./static/css/main.af6fd04a.css.map",
+    "main.390e35f0.js.map": "./static/js/main.390e35f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed77eaad.css",
-    "static/js/main.9989f9c0.js"
+    "static/css/main.af6fd04a.css",
+    "static/js/main.390e35f0.js"
   ]
 }
