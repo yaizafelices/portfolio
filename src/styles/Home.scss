@@ -1,12 +1,13 @@
 .main{
-    background-color:azure;
-    min-height: 65vh;
-    @media all and (min-width: 768px) {
-        min-height: 73.5vh;
-    }
-    @media all and (min-width: 1400px) {
-        min-height: 75.7vh;
-    }
+    background: rgba(255,203,143,1);
+    background: -moz-linear-gradient(top, rgba(255,203,143,1) 0%, rgba(250,250,250,1) 64%, rgba(250,250,250,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,203,143,1)), color-stop(64%, rgba(250,250,250,1)), color-stop(100%, rgba(250,250,250,1)));
+    background: -webkit-linear-gradient(top, rgba(255,203,143,1) 0%, rgba(250,250,250,1) 64%, rgba(250,250,250,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,203,143,1) 0%, rgba(250,250,250,1) 64%, rgba(250,250,250,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,203,143,1) 0%, rgba(250,250,250,1) 64%, rgba(250,250,250,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,203,143,1) 0%, rgba(250,250,250,1) 64%, rgba(250,250,250,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcb8f', endColorstr='#fafafa', GradientType=0 );
+    height: 85vh;
 }
 
 .home{

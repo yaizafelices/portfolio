@@ -3,14 +3,16 @@ import { Link } from 'react-router-dom';
 import '../styles/Header.scss';
 import logoHeader from '../images/logo-yaiza-finalY.png';
 
+
 const Header = () => {
+
     return (
         <header className='header'>
-          <nav class="header__menu">
-            
-              <i className="fas fa-bars header__menu-icon"></i>
-            
-          </nav>
+          <div className= "header__menu">
+            <nav className="header__menu-bars">
+                <i className="fas fa-bars header__menu-bars-icon"></i> 
+            </nav>
+          </div>
           <figure className='header__logo'>
             <img className='header__logo-icon' src={logoHeader} alt="Yaiza" title='Yaiza'></img>
           </figure>

@@ -3,7 +3,7 @@ import React from "react";
 import '../styles/App.scss';
 //import PropTypes from 'prop-types';
 import {Route, Routes} from 'react-router-dom';
-// import { useState } from "react";
+
 
 
 // COMPONENTS //
@@ -12,18 +12,18 @@ import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Footer from "./Footer";
 
 function App() {
+
   return (
+    <>
+      <Header/>
       <Routes>
         <Route
           path="/"
           element={
             <>
-              <Header />
               <Home />
-              <Footer />
             </>
           }>
         </Route>
@@ -31,9 +31,7 @@ function App() {
           path="/aboutme"
           element={
             <>
-              <Header />
               <AboutMe />
-              <Footer />
             </>
           }>
         </Route>
@@ -41,9 +39,7 @@ function App() {
           path="/projects"
           element={
             <>
-              <Header />
               <Projects />
-              <Footer />
             </>
           }>
         </Route>
@@ -51,13 +47,12 @@ function App() {
           path="/contact"
           element={
             <>
-              <Header />
               <Contact />
-              <Footer />
             </>
           }>
         </Route>
       </Routes> 
+    </> 
   );
 }
 export default App;

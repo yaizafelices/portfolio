@@ -1,34 +1,39 @@
 .header{
     height: 10vh;
     padding: 10px;
-    background-color: #0C474B;
+    background-color:orange;
     @media all and (min-width: 768px) {
-        height: 15vh;
         padding: 20px;
         display: flex;
-        justify-content: space-between;
-        align-items: center;         
+        align-items: center;
+        justify-content: center;
+  
     }
 
     &__menu{
-        color: azure;
-        position: absolute;
-        margin: 15px 0 15px 15px;
-        &:hover {
-            color: orange
-          }
-        @media all and (min-width: 768px) {
+
+        &-bars{
+            color: azure;
+            position: absolute;
+            margin: 15px 0 15px 15px;
+            &:hover {
+                color: #0C474B;
+              }
+            @media all and (min-width: 768px) {
+                display:none;
+            }
+        }
+
+        &-list{
             display:none;
         }
+
     }
 
 
     &__logo{
         display: flex;
         justify-content: center;
-        @media all and (min-width: 768px) {
-            justify-content:left;    
-        }
         
         &-icon{
             height: 50px;
@@ -39,11 +44,11 @@
         }   
     }
 
+
     &__list{
-        color: azure;
+        color: #0C474B;
         display: none;
         flex-direction: column;
-        align-items: center;
         list-style-type: none;
         @media all and (min-width: 768px) {
             display: flex;
@@ -53,12 +58,13 @@
         
         &-li{
             padding: 5px;
+
             &-item{
                 text-transform: uppercase;
                 text-decoration: none;
                 color: azure;
                 &:hover {
-                    color: orange
+                    color: #0C474B;
                   }
                 
                 @media all and (min-width: 768px) {
