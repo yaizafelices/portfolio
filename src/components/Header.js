@@ -14,7 +14,8 @@ const Header = () => {
           <div>
             <div className= "header__menu">
               <nav className="header__menu-bars">
-                  <i className="fas fa-bars header__menu-bars-icon"></i> 
+              <Link className='header__list-li-item' to='/Menu'><i className="fas fa-bars header__menu-bars-icon"></i> </Link>
+                  
               </nav>
             </div>
             <nav>

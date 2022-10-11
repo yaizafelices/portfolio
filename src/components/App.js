@@ -12,6 +12,7 @@ import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Menu from "./Menu";
 
 function App() {
 
@@ -24,6 +25,14 @@ function App() {
           element={
             <>
               <Home />
+            </>
+          }>
+        </Route>
+        <Route
+          path="/menu"
+          element={
+            <>
+              <Menu />
             </>
           }>
         </Route>
