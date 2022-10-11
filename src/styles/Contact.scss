@@ -23,6 +23,21 @@
             }
         }
     }
+
+    &__cv{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        &-item{
+            text-decoration: none;
+            color: black;
+            padding: 35px;
+            &:hover {
+                color: orange;
+              }  
+        }
+        
+    }
 }
 
 .icon{

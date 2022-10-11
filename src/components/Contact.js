@@ -1,5 +1,8 @@
 import '../styles/Contact.scss';
 
+import cvEnglish from '../assets/CV-english.pdf';
+import cvSpanish from '../assets/CV-spanish.pdf';
+
 const Contact = () => {
     return (
         <main className="main">
@@ -37,6 +40,11 @@ const Contact = () => {
                         </li>
                     </ul>
                 </nav>
+                <h3 className="contact__text">Here you can download my CV in english or in spanish</h3>
+                <div className="contact__cv">
+                    <a className="contact__cv-item" href={cvEnglish} target="_blank" rel="noopener noreferrer" download="CV-YaizaSoriaFelicesEnglish.pdf" title="Download CV">CV English</a>
+                    <a className="contact__cv-item" href={cvSpanish} target="_blank" rel="noopener noreferrer" download="CV-YaizaSoriaFelices.pdf" title="Descargar CV">CV Spanish</a>
+                </div>
             </section>
         </main>
     );
