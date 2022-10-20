@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.af6fd04a.css",
-    "main.js": "./static/js/main.390e35f0.js",
+    "main.css": "./static/css/main.85513b8a.css",
+    "main.js": "./static/js/main.5a7654fc.js",
     "static/media/photo-yaiza.jpg": "./static/media/photo-yaiza.46ae318386ca1f66a097.jpg",
     "static/media/harrypotter.png": "./static/media/harrypotter.b8d1cb0c8b5ffcb21a74.png",
     "static/media/hangman.png": "./static/media/hangman.fced5b15cae4e5ebd1ef.png",
@@ -18,17 +18,18 @@
     "static/media/friends.png": "./static/media/friends.cc105870f76262451b0d.png",
     "static/media/openspaces.png": "./static/media/openspaces.fbdd391ffe14273a43b0.png",
     "static/media/css.png": "./static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/googlepage.png": "./static/media/googlepage.37e3c44cd73af4561a47.png",
     "static/media/slack.png": "./static/media/slack.55ad9eabc7f642f5e5a5.png",
     "static/media/tasks.png": "./static/media/tasks.6c5e68f346d84c52454d.png",
     "static/media/html5.png": "./static/media/html5.2c6a71b184b518b01b9a.png",
     "static/media/js.png": "./static/media/js.3dfb665e058d08c99f28.png",
     "static/media/zepplin.png": "./static/media/zepplin.937e15392e31e0db03c2.png",
     "index.html": "./index.html",
-    "main.af6fd04a.css.map": "./static/css/main.af6fd04a.css.map",
-    "main.390e35f0.js.map": "./static/js/main.390e35f0.js.map"
+    "main.85513b8a.css.map": "./static/css/main.85513b8a.css.map",
+    "main.5a7654fc.js.map": "./static/js/main.5a7654fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.af6fd04a.css",
-    "static/js/main.390e35f0.js"
+    "static/css/main.85513b8a.css",
+    "static/js/main.5a7654fc.js"
   ]
 }
