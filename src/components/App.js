@@ -29,14 +29,6 @@ function App() {
           }>
         </Route>
         <Route
-          path="/menu"
-          element={
-            <>
-              <Menu />
-            </>
-          }>
-        </Route>
-        <Route
           path="/aboutme"
           element={
             <>
@@ -57,6 +49,14 @@ function App() {
           element={
             <>
               <Contact />
+            </>
+          }>
+        </Route>
+        <Route
+          path="/menu"
+          element={
+            <>
+              <Menu />
             </>
           }>
         </Route>

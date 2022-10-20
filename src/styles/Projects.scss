@@ -55,117 +55,52 @@
                     margin: 5px 0;
                 }  
             }
-            &-hp{
+            &-container{
                 height: 200px;
                 width: 200px;
-                background-image: url(../images/harrypotter.png);
                 background-position: center;
                 background-size: cover;
                 border-radius: 15px;
                 opacity: 0.5;
                 transition-property: opacity;
             }
-            &-hp:hover{
+            &-container:hover{
                     opacity: 1;
                 }
-
-            &-hangman{
-                height: 200px;
-                width: 200px;
-                background-image: url(../images/hangman.png);
-                background-position: center;
-                background-size: cover;
-                border-radius: 15px;
-                opacity: 0.5;
-                transition-property: opacity;
-                }
-            &-hangman:hover{
-                    opacity: 1;
-                    }
-            
-            &-jokers{
-                height: 200px;
-                width: 200px;
-                background-image: url(../images/jokersscript.png);
-                background-position: center;
-                background-size: cover;
-                border-radius: 15px;
-                opacity: 0.5;
-                transition-property: opacity;
-                    }
-            &-jokers:hover{
-                    opacity: 1;
-                        }
-                        
-            &-friends{
-                height: 200px;
-                width: 200px;
-                background-image: url(../images/friends.png);
-                background-position: center;
-                background-size: cover;
-                border-radius: 15px;
-                opacity: 0.5;
-                transition-property: opacity;
-                        }
-                &-friends:hover{
-                    opacity: 1;
-                            }
-
-            &-anime{
-                height: 200px;
-                width: 200px;
-                background-image: url(../images/anime.png);
-                background-position: center;
-                background-size: cover;
-                border-radius: 15px;
-                opacity: 0.5;
-                transition-property: opacity;
-                        }
-                &-anime:hover{
-                    opacity: 1;
-                            }
-
-            &-tasks{
-                height: 200px;
-                width: 200px;
-                background-image: url(../images/tasks.png);
-                background-position: center;
-                background-size: cover;
-                border-radius: 15px;
-                opacity: 0.5;
-                transition-property: opacity;
-                        }
-                &-tasks:hover{
-                    opacity: 1;
-                            }
-
-            &-contactpage{
-                height: 200px;
-                width: 200px;
-                background-image: url(../images/strangercoders.png);
-                background-position: center;
-                background-size: cover;
-                border-radius: 15px;
-                opacity: 0.5;
-                transition-property: opacity;
-                        }
-                &-contactpage:hover{
-                    opacity: 1;
-                            }
-
-            &-openspaces{
-                height: 200px;
-                width: 200px;
-                background-image: url(../images/openspaces.png);
-                background-position: center;
-                background-size: cover;
-                border-radius: 15px;
-                opacity: 0.5;
-                transition-property: opacity;
-                        }
-                &-openspaces:hover{
-                    opacity: 1;
-                            }
+            }   
         }
     }
-}
+    .hp{
+        background-image: url(../images/harrypotter.png);
+    }
+        
+    .hangman{
+        background-image: url(../images/hangman.png);
+        }
+
+    .jokers{
+        background-image: url(../images/jokersscript.png);
+                }
+                
+    .friends{
+        background-image: url(../images/friends.png);
+                    }
+
+    .anime{
+        background-image: url(../images/anime.png);
+                    }
+
+    .tasks{
+        background-image: url(../images/tasks.png);
+                    }
+
+    .contactpage{
+        background-image: url(../images/strangercoders.png);
+                    }
+
+    .openspaces{
+        background-image: url(../images/openspaces.png);
+                    }
+    .googlepage{
+        background-image: url(../images/googlepage.png);
+                    }               
