@@ -42,6 +42,10 @@ const Projects = () => {
                         <a href="https://yaizafelices.github.io/google-principal-page/" target="blank" className="projects__list-item-link"><div className="projects__list-item-container googlepage"></div><p className="projects__list-item-description">Design layout Google principal page</p><p className="projects__list-item-description-tecn">HTML / CSS</p>
                         <p className="projects__list-item-description">Personal project</p></a>
                     </li>
+                    <li className="projects__list-item">
+                        <a href="https://yaizafelices.github.io/geometric-shapes/" target="blank" className="projects__list-item-link"><div className="projects__list-item-container geometric-figures"></div><p className="projects__list-item-description">Calculate perimeter and area of geometric Figures</p><p className="projects__list-item-description-tecn">HTML / CSS / JavaScript</p>
+                        <p className="projects__list-item-description">Personal project</p></a>
+                    </li>
                 </ul>
             </section>
         </main>
