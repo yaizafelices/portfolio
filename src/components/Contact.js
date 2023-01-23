@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <main className="main">
             <section className="contact">
-                <h3 className="contact__text">You can contact with me in the email: yaizafelices@gmail</h3>
+                <h3 className="contact__text">You can contact with me in the email: yaizafelices@gmail.com</h3>
                 <h3 className="contact__text">Also you can contact me in one of my social media</h3>
                 <nav>
                     <ul className="contact__list">
